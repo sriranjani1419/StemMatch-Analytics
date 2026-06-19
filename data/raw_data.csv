@@ -1,0 +1,6 @@
+Sample_ID,Cell_Type,Expression_Level,Target_Score,Status
+STEM-001,Cancer_Cell,8.45,0.89,Active
+STEM-002,Healthy_Cell,2.12,0.15,Control
+STEM-003,Cancer_Cell,9.12,0.94,Active
+STEM-004,Cancer_Cell,7.80,0.78,Pending
+STEM-005,Healthy_Cell,1.95,0.12,Control
