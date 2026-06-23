@@ -1,4 +1,4 @@
-# StemMatch-Analytics
+# Stem-Cell-Match-Analysis-CLI
 
 ## 🔬 Project Vision & Purpose
 In professional research laboratories—especially fields like Regenerative Medicine—scientists face huge data bottlenecks. When working with induced pluripotent stem cells (iPSCs) or matching complex patient parameters against tailored biomaterials, doing comparisons manually using sheets takes weeks.
