@@ -21,7 +21,12 @@ try:
     # Calculate programmatic descriptions of numeric statistics
     print("\n--- Core Matrix Dataset Summary Statistics ---")
     print(df.describe())
+# Filter out only the rows where Cell_Type is exactly 'Cancer_Cell'
+    cancer_cell_mask = df["Cell_Type"] == "Cancer_Cell"
+    cancer_df = df[cancer_cell_mask]
     
+    print("\n🔬 Isolated Targeted Cancer Cell Cohort:")
+    print(cancer_df)    
 except FileNotFoundError:
     print(f"\n[ERROR] Pipeline failure: Data file not found at '{data_path}'")
 
